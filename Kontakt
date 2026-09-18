@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kontakt – BitWerk Oldenburg</title>
+
+    <style>
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f2f5f8;
+            color: #222;
+        }
+
+        header {
+            background-color: #123b5d;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        header img {
+            width: 120px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        header h1 {
+            margin: 5px 0;
+            font-size: 36px;
+        }
+
+        header p {
+            margin: 5px 0;
+            font-size: 18px;
+        }
+
+        nav {
+            background-color: #0d2c44;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        h2 {
+            color: #123b5d;
+            margin-top: 0;
+        }
+
+        .karten-container {
+            display: flex;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .karte {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .kleine-karte {
+            flex: 1;
+            min-width: 280px;
+        }
+
+        .kontakt-daten {
+            line-height: 1.8;
+        }
+
+        .kontakt-daten strong {
+            color: #123b5d;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #123b5d;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+        .button:hover {
+            background-color: #1b587f;
+        }
+
+        .anfahrt {
+            background-color: #e8f0f6;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+
+        footer {
+            background-color: #0d2c44;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <img src="bilder/logo.png" alt="BitWerk Oldenburg Logo">
+
+        <h1>BitWerk Oldenburg</h1>
+
+        <p>Kontakt &amp; Anfahrt</p>
+
+    </header>
+
+
+    <nav>
+
+        <a href="index.html">Startseite</a>
+        <a href="preise.html">Preise</a>
+        <a href="kontakt.html">Kontakt</a>
+
+    </nav>
+
+
+    <main>
+
+        <section class="karte">
+
+            <h2>Kontakt</h2>
+
+            <p>
+                Du hast Fragen, möchtest eine Reparatur abgeben oder
+                benötigst technische Hilfe? Kontaktiere uns gerne.
+            </p>
+
+            <div class="kontakt-daten">
+
+                <p>
+                    <strong>BitWerk Oldenburg</strong><br>
+                    Lange Straße 1<br>
+                    26122 Oldenburg
+                </p>
+
+                <p>
+                    <strong>Telefon:</strong><br>
+                    0441 123456
+                </p>
+
+                <p>
+                    <strong>E-Mail:</strong><br>
+                    <a href="mailto:info@bitwerk-oldenburg.de">
+                        info@bitwerk-oldenburg.de
+                    </a>
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <div class="karten-container">
+
+            <section class="karte kleine-karte">
+
+                <h2>Öffnungszeiten</h2>
+
+                <p>
+                    <strong>Montag – Freitag</strong><br>
+                    09:00 – 18:00 Uhr
+                </p>
+
+                <p>
+                    <strong>Samstag</strong><br>
+                    10:00 – 14:00 Uhr
+                </p>
+
+                <p>
+                    <strong>Sonntag</strong><br>
+                    Geschlossen
+                </p>
+
+            </section>
+
+
+            <section class="karte kleine-karte">
+
+                <h2>Anfahrt</h2>
+
+                <div class="anfahrt">
+
+                    <p>
+                        <strong>BitWerk Oldenburg</strong>
+                    </p>
+
+                    <p>
+                        Lange Straße 1<br>
+                        26122 Oldenburg
+                    </p>
+
+                    <p>
+                        Unser Geschäft befindet sich zentral
+                        in Oldenburg und ist gut mit Bus, Fahrrad
+                        und Auto erreichbar.
+                    </p>
+
+                </div>
+
+            </section>
+
+        </div>
+
+
+        <section class="karte">
+
+            <h2>Karriere bei BitWerk</h2>
+
+            <p>
+                Du interessierst dich für IT, Elektronik oder
+                Technik? Wir freuen uns auch über Bewerbungen und
+                Anfragen zu Ausbildungs- und Praktikumsplätzen.
+            </p>
+
+            <a class="button"
+               href="mailto:bewerbung@bitwerk-oldenburg.de">
+                Bewerbung senden
+            </a>
+
+        </section>
+
+
+        <section class="karte">
+
+            <h2>Wir freuen uns auf dich!</h2>
+
+            <p>
+                Egal ob Reparatur, Beratung oder technische Frage –
+                das BitWerk-Team hilft dir gerne weiter.
+            </p>
+
+            <a class="button" href="index.html">
+                Zur Startseite
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>&copy; 2026 BitWerk Oldenburg</p>
+
+        <p>
+            Computer &amp; Elektronik – schnell, fair und zuverlässig
+        </p>
+
+    </footer>
+
+</body>
+</html>
