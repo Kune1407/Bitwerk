@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Preise – BitWerk Oldenburg</title>
+
+    <style>
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f2f5f8;
+            color: #222;
+        }
+
+        header {
+            background-color: #123b5d;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        header img {
+            width: 120px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        header h1 {
+            margin: 5px 0;
+            font-size: 36px;
+        }
+
+        header p {
+            margin: 5px 0;
+            font-size: 18px;
+        }
+
+        nav {
+            background-color: #0d2c44;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        h2 {
+            color: #123b5d;
+            margin-top: 0;
+        }
+
+        .karte {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .preise {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .preise th,
+        .preise td {
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+
+        .preise th {
+            background-color: #123b5d;
+            color: white;
+        }
+
+        .preise tr:hover {
+            background-color: #f2f5f8;
+        }
+
+        .hinweis {
+            background-color: #e8f0f6;
+            padding: 15px;
+            border-left: 5px solid #123b5d;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #123b5d;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+        .button:hover {
+            background-color: #1b587f;
+        }
+
+        footer {
+            background-color: #0d2c44;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <img src="bilder/logo.png" alt="BitWerk Oldenburg Logo">
+
+        <h1>BitWerk Oldenburg</h1>
+
+        <p>Unsere Preise</p>
+
+    </header>
+
+
+    <nav>
+
+        <a href="index.html">Startseite</a>
+        <a href="preise.html">Preise</a>
+        <a href="kontakt.html">Kontakt</a>
+
+    </nav>
+
+
+    <main>
+
+        <section class="karte">
+
+            <h2>Unsere Preise</h2>
+
+            <p>
+                Hier findest du eine Übersicht über einige unserer
+                Dienstleistungen.
+            </p>
+
+            <table class="preise">
+
+                <tr>
+                    <th>Leistung</th>
+                    <th>Preis</th>
+                </tr>
+
+                <tr>
+                    <td>Diagnose &amp; Kostenvoranschlag</td>
+                    <td>Kostenlos</td>
+                </tr>
+
+                <tr>
+                    <td>PC-/Notebook-Reinigung</td>
+                    <td>39 €</td>
+                </tr>
+
+                <tr>
+                    <td>Datensicherung</td>
+                    <td>ab 79 €</td>
+                </tr>
+
+                <tr>
+                    <td>Einrichtung eines neuen Gerätes</td>
+                    <td>49 €</td>
+                </tr>
+
+                <tr>
+                    <td>Software- und Systemhilfe</td>
+                    <td>ab 29 €</td>
+                </tr>
+
+                <tr>
+                    <td>Smartphone-Diagnose</td>
+                    <td>19 €</td>
+                </tr>
+
+            </table>
+
+        </section>
+
+
+        <section class="karte">
+
+            <h2>Individuelle Reparaturen</h2>
+
+            <p>
+                Bei größeren Reparaturen hängt der Preis vom Gerät,
+                Schaden und benötigten Ersatzteilen ab.
+            </p>
+
+            <p class="hinweis">
+                Vor jeder kostenpflichtigen Reparatur informieren wir
+                dich über die voraussichtlichen Kosten.
+            </p>
+
+        </section>
+
+
+        <section class="karte">
+
+            <h2>Fragen zu unseren Preisen?</h2>
+
+            <p>
+                Du bist dir nicht sicher, welche Leistung du benötigst?
+                Kein Problem – melde dich einfach bei uns.
+            </p>
+
+            <a class="button" href="kontakt.html">
+                Kontakt aufnehmen
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>&copy; 2026 BitWerk Oldenburg</p>
+
+        <p>
+            Computer &amp; Elektronik – schnell, fair und zuverlässig
+        </p>
+
+    </footer>
+
+</body>
+</html>
