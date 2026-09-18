@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BitWerk Oldenburg</title>
+
+    <style>
+
+        /* Grundlegendes Aussehen */
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f2f5f8;
+            color: #222;
+        }
+
+        /* Kopfbereich */
+        header {
+            background-color: #123b5d;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        header img {
+            width: 120px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        header h1 {
+            margin: 5px 0;
+            font-size: 36px;
+        }
+
+        header p {
+            margin: 5px 0;
+            font-size: 18px;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #0d2c44;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Hauptbereich */
+        main {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        /* Überschriften */
+        h2 {
+            color: #123b5d;
+            margin-top: 0;
+        }
+
+        /* Karten */
+        .karte {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Zwei Karten nebeneinander */
+        .karten-container {
+            display: flex;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .kleine-karte {
+            flex: 1;
+            min-width: 280px;
+        }
+
+        /* Listen */
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* Links */
+        .button {
+            display: inline-block;
+            background-color: #123b5d;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+        .button:hover {
+            background-color: #1b587f;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #0d2c44;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Kopfbereich -->
+    <header>
+
+        <img src="bilder/logo.png" alt="BitWerk Oldenburg Logo">
+
+        <h1>BitWerk Oldenburg</h1>
+
+        <p>Computer- und Elektronikservice</p>
+
+    </header>
+
+
+    <!-- Navigation -->
+    <nav>
+
+        <a href="index.html">Startseite</a>
+        <a href="preise.html">Preise</a>
+        <a href="kontakt.html">Kontakt</a>
+
+    </nav>
+
+
+    <!-- Hauptinhalt -->
+    <main>
+
+        <!-- Willkommen -->
+        <section class="karte">
+
+            <h2>Willkommen bei BitWerk</h2>
+
+            <p>
+                Willkommen bei BitWerk Oldenburg! Wir kümmern uns um die
+                Reparatur, Wartung und Einrichtung von Computern,
+                Smartphones und anderen elektronischen Geräten.
+            </p>
+
+            <p>
+                Unser Ziel ist es, technische Probleme schnell, fair
+                und verständlich zu lösen.
+            </p>
+
+        </section>
+
+
+        <!-- Leistungen -->
+        <section class="karte">
+
+            <h2>Unsere Leistungen</h2>
+
+            <p>
+                Wir bieten verschiedene Dienstleistungen rund um
+                Computer und Elektronik an:
+            </p>
+
+            <ul>
+
+                <li>Reparatur von PCs und Notebooks</li>
+                <li>Reparatur von Smartphones</li>
+                <li>Reparatur kleiner Elektrogeräte</li>
+                <li>Diagnose und Kostenvoranschlag</li>
+                <li>Datensicherung</li>
+                <li>Datenerrettung</li>
+                <li>Einrichtung neuer Geräte</li>
+                <li>Software- und Systemhilfe</li>
+
+            </ul>
+
+        </section>
+
+
+        <!-- Zwei Karten -->
+        <div class="karten-container">
+
+            <section class="karte kleine-karte">
+
+                <h2>Warum BitWerk?</h2>
+
+                <p>
+                    Bei uns stehen faire Preise, persönliche Beratung
+                    und eine schnelle Bearbeitung im Mittelpunkt.
+                </p>
+
+                <ul>
+
+                    <li>Faire Preise</li>
+                    <li>Transparente Beratung</li>
+                    <li>Erfahrene Mitarbeiter</li>
+                    <li>Schnelle Reparaturen</li>
+
+                </ul>
+
+            </section>
+
+
+            <section class="karte kleine-karte">
+
+                <h2>Öffnungszeiten</h2>
+
+                <p>
+                    <strong>Montag – Freitag:</strong><br>
+                    09:00 – 18:00 Uhr
+                </p>
+
+                <p>
+                    <strong>Samstag:</strong><br>
+                    10:00 – 14:00 Uhr
+                </p>
+
+                <p>
+                    <strong>Sonntag:</strong><br>
+                    Geschlossen
+                </p>
+
+            </section>
+
+        </div>
+
+
+        <!-- Karriere -->
+        <section class="karte">
+
+            <h2>Karriere bei BitWerk</h2>
+
+            <p>
+                Du interessierst dich für Computer, Elektronik und
+                Technik? Dann könnte BitWerk der richtige Arbeitsplatz
+                für dich sein.
+            </p>
+
+            <p>
+                Wir bieten interessante Möglichkeiten in den Bereichen
+                IT, Reparatur, Technik und Kundenservice.
+            </p>
+
+            <ul>
+
+                <li>Ausbildungsplätze</li>
+                <li>Praktikumsplätze</li>
+                <li>Jobs im IT-Bereich</li>
+                <li>Weiterbildungsmöglichkeiten</li>
+
+            </ul>
+
+            <a class="button" href="kontakt.html">
+                Interesse? Kontakt aufnehmen
+            </a>
+
+        </section>
+
+
+        <!-- Kontakt -->
+        <section class="karte">
+
+            <h2>Du hast ein technisches Problem?</h2>
+
+            <p>
+                Egal ob Computer, Smartphone oder anderes
+                Elektrogerät – wir helfen dir gerne weiter.
+            </p>
+
+            <a class="button" href="preise.html">
+                Unsere Preise
+            </a>
+
+            <a class="button" href="kontakt.html">
+                Kontakt &amp; Anfahrt
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- Fußzeile -->
+    <footer>
+
+        <p>
+            &copy; 2026 BitWerk Oldenburg
+        </p>
+
+        <p>
+            Computer &amp; Elektronik – schnell, fair und zuverlässig
+        </p>
+
+    </footer>
+
+</body>
+</html>
